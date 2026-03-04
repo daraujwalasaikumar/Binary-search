@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e88e5;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav .active {
+    border-bottom: 2px solid orange;
+}
+
+.login, .signup {
+    padding: 6px 12px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.signup {
+    background: #1e88e5;
+    color: white;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(to right, #4e73df, #1e88e5);
+    color: white;
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.search-box {
+    margin-top: 30px;
+}
+
+.search-box input {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    background: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Routes */
+.routes {
+    padding: 40px 50px;
+}
+
+.route-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.route {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Bus Section */
+.buses {
+    padding: 40px 50px;
+}
+
+.filters button {
+    margin-right: 10px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.bus-card {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Offers */
+.offers {
+    background: #1e88e5;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.offers button {
+    padding: 10px 20px;
+    background: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+}

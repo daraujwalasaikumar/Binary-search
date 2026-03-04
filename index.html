@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travelo - Bus Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Travelo</div>
+    <nav>
+        <a href="#">Flights</a>
+        <a href="#">Hotels</a>
+        <a href="#" class="active">Buses</a>
+        <a href="#">Cabs</a>
+        <button class="login">Login</button>
+        <button class="signup">Sign Up</button>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1>Book Bus Tickets Easily!</h1>
+        <p>Find, Compare & Book Bus Tickets Online</p>
+
+        <div class="search-box">
+            <input type="text" id="from" placeholder="From City">
+            <input type="text" id="to" placeholder="To City">
+            <input type="date">
+            <button onclick="searchBus()">Search Buses</button>
+        </div>
+    </div>
+</section>
+
+<section class="routes">
+    <h2>Popular Bus Routes</h2>
+    <div class="route-cards">
+        <div class="route">Delhi → Manali</div>
+        <div class="route">Mumbai → Goa</div>
+        <div class="route">Bangalore → Chennai</div>
+        <div class="route">Pune → Shirdi</div>
+    </div>
+</section>
+
+<section class="buses">
+    <h2>Available Buses</h2>
+
+    <div class="filters">
+        <button>AC</button>
+        <button>Non-AC</button>
+        <button>Sleeper</button>
+    </div>
+
+    <div id="busList"></div>
+</section>
+
+<section class="offers">
+    <h2>Get Exclusive Offers on Bus Bookings!</h2>
+    <button>View Offers</button>
+</section>
+
+<footer>
+    <p>© 2026 Travel Agency. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
